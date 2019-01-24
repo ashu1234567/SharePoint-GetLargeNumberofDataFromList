@@ -1,6 +1,5 @@
-# SharePoint-GetLargeNumberofDataFromList
-Repository for SharePoint solution where one can pull large amount of data from SharePoint list to show on page or webpart. 
+# SharePoint-Get large number(around 100000) of items from list and show these using Jquery data table
 
-Here you will find sample approach and code for getting large amount of data from list and showing on page. For the demo we are getting 100,000 data and showing these in table format using Jquery data table.
+Here you will find sample approach and code for getting large amount of data(around 100000) from list and showing on page in just 5 seconds
 
 You can also watch this video on using this link...
