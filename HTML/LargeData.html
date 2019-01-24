@@ -1,0 +1,47 @@
+/*................................................................................................
+Version       Date               Created By                        Comments
+1.0.0         18 Jan 2019       Ashutosh Kumar Choudhary          Initial version
+
+..................................................................................................*/
+
+/*
+It contains the HTML for showing data using Jquery data table. 
+*/
+
+
+<script>
+    document.write("<script src='" + _spPageContextInfo.siteAbsoluteUrl +
+        "/Style%20Library/Portal/JS/LargeData.js'><\/script>");
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        LargeData.getItems();
+    });
+</script>
+
+<div class="box GridContainer">
+    <div class="clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <table id="GridTable" class="display table table-striped responsive nowrap" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+							    <th>Title</th>                               
+							    <th>Available Date</th>                
+								<th>Price</th>
+                                <th>Count</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+	   <div class="col-sm-12 loadingDiv" style="text-align: center;">
+            <span class="processingIcon"><img src="/sites/lt/Style%20Library/Portal/images/loading_small.gif"></span>
+            <span class="processingMessage">Loading...</span>
+        </div>
+	
+</div>
